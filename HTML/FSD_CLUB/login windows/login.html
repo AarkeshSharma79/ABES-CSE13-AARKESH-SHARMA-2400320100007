@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wwwallinone.in</title>
+    <script>
+    function checkLogin(event)
+        {
+            event.preventDefault();
+            let user=document.getElemnetById("username").value;
+            let pass=document.getElementById("password").value;
+            if(user==="admin"&&pass==="1234")
+            {
+                window.location.href="blog.html";
+            }
+                else
+                {
+                    alert("invalid username or password");
+                }
+      }
+    </script> 
+    <style>
+        body{
+            background-image:url("photo.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
+
+</head>
+<body background="photo.jpg">
+    <center>
+        <img src="logo.jpg" alt="web logo" width="70" height="70"></img>
+        <h2><u style="color:aqua">Welcome to login window</u></h2>
+        <p><u>Register here<u></p>
+        <form>
+            <table border="0" cellpading="5">
+                <tr>
+                    <td>
+                        <input type="text" id="name"placeholder="Enter your's name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="email"id="email"placeholder="Enter your's email id"required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="password" id="password" placeholder="Enter the password"required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="password" id="password" placeholder="Enter to comfirm password"required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button onclick="alert('login successful')">login</button>
+                    </td>
+                </tr>
+
+
+            </table>
+        </form>
+
+    </center>
+
+
+    
+</body>
+</html>
