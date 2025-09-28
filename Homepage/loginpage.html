@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <script>
+    function checkLogin(event)
+        {
+            event.preventDefault();
+            let user=document.getElemnetById("username").value;
+            let pass=document.getElementById("password").value;
+            if(user==="admin"&&pass==="1234")
+            {
+                window.location.href="blog.html";
+            }
+                else
+                {
+                    alert("invalid username or password");
+                }
+      }
+    </script> 
+</head>
+<body bgcolor="skyblue">
+    <center>
+        <img src="Logo.png" alt="web logo"width="100pxl"></img>
+        <h2><u>Welcome to login window</u></h2>
+        <p><u>Register here<u></p>
+        <form>
+            <table border="0" cellpading="5">
+                <tr>
+                    <td>
+                        <input type="text" id="name"placeholder="Enter your's name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="email"id="email"placeholder="Enter your's email id"required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="password" id="password" placeholder="Enter the password"required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="password" id="password" placeholder="Enter to comfirm password"required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button onclick="alert('login successful')">login</button>
+                    </td>
+                </tr>
+
+
+            </table>
+        </form>
+        <a href="homepage.html">HOME PAGE</a>
+
+    </center>
+
+
+    
+</body>
+</html>
