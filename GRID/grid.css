@@ -1,0 +1,28 @@
+.container {
+  display: grid;
+  grid-template-columns: 5em 100px 30%;
+  grid-template-rows: 200px auto;
+  gap: 10px;
+  background-color: var(--color-stroke);
+  padding: 5px;
+  max-width: 30rem;
+}
+.body{
+    background-origin:padding-box;
+    font-family: Arial,sans-serif;
+    font-style:italic;
+}
+.grid div{
+    background: #2563eb;
+    color:white;
+    text-align: center;
+    padding: 50px 8;
+    border-radius:6px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 5em 100px 30%;
+    width: 800px;
+    height: 100px;
+    column-gap: 10px;
+}

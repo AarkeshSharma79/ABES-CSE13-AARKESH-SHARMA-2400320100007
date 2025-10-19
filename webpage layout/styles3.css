@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  border: 5;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "nav    main"
+    "nav    aside"
+    "footer footer";
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 80px 1fr 1fr 60px;
+  height: 100vh;
+  gap: 10px;
+  padding: 10px;
+  background: #f1f5f9;
+}
+
+/* Assigning each section */
+header { 
+  grid-area: header; background: hotpink; color: white; text-align: center; 
+}
+nav    {
+   grid-area: nav; background: #0445f7; color: white; padding: 20px;
+   }
+main   { 
+  grid-area: main; background: #07eb38; padding: 10px; 
+}
+aside  { 
+  
+  grid-area: aside; background: #e50707; padding: 10px; 
+}
+footer { 
+  grid-area: footer; background: #f59404; color: white; text-align: center; line-height: 60px; 
+}

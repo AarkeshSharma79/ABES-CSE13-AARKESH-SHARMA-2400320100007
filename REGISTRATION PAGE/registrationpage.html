@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <form>
+    <h2 align="center">Student Registration Form</h2>
+    <table border="0" cellpadding="10" cellpadding="0" align="center">
+    <tr>
+        <td>
+             Enter the Full Name:
+        </td>
+        <td>
+            <input type="text" name="Full Name" required></input>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Gender:
+        </td>
+        <td>
+            <input type="checkbox" name="Gender" value="Male">Male</input>
+            <input type="checkbox" name="Gender" value="Female">Female</input>
+        </td>
+    </tr>
+        <tr>
+            <td>
+                Enter the Email id:
+            </td>
+            <td>
+                <input type="email" name="Email" required></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Enter the Email Passaward: 
+            </td>
+            <td>
+                <input type="password" name="Password" required></input>
+             </td>
+        </tr>
+        <tr>
+            <td>
+                Mobile Number:
+            </td>
+            <td>
+                <input type="text" name="Number" required></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Date of Birth:
+            </td>
+            <td>
+                <input type="date" id="dob" name="dob" min="1900-01-01" max="2020-12-31">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                known langauges:
+            </td>
+            <td>
+                <input type="checkbox" name="langaugse" value="English">English</input>
+                <input type="checkbox" name="langaugse" value="Telugu">Telugu</input>
+                <input type="checkbox" name="langaugse" value="Hindi">Hindi</input>
+                <input type="checkbox" name="langaugse" value="Tamil">Tamil</input>
+            </td>
+        </tr>  
+        <tr>
+            <td>Address</td>
+            <td>
+                <textarea name="Address" row="4" cols="30"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Submit"></input>
+                <input type="reset" value="Reset"></input>
+            </td>
+        </tr>
+     </table> 
+     </form>  
+</body>
+</html>

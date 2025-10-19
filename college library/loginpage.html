@@ -4,26 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login page</title>
-    <script>
-    function checkLogin(event)
-        {
-            event.preventDefault();
-            let user=document.getElemnetById("username").value;
-            let pass=document.getElementById("password").value;
-            if(user==="admin"&&pass==="1234")
-            {
-                window.location.href="blog.html";
-            }
-                else
-                {
-                    alert("invalid username or password");
-                }
-      }
-    </script> 
 </head>
-<body bgcolor="skyblue">
+<body>
     <center>
-        <img src="Logo.png" alt="web logo"width="100pxl"></img>
         <h2><u>Welcome to login window</u></h2>
         <p><u>Register here<u></p>
         <form>
@@ -57,7 +40,7 @@
 
             </table>
         </form>
-        <a href="homepage.html">HOME PAGE</a>
+        <a href="top.html">HOME PAGE</a>
 
     </center>
 </body>
