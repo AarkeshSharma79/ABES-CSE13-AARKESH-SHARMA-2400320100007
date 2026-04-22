@@ -1,0 +1,12 @@
+.card{
+    width: 200px;
+    height: auto;
+    background-color: aquamarine;
+    border-radius: 10%;
+    display: inline-block;
+}
+.pimg{
+    width: 150px;
+    height: auto;
+    border-radius: 10%;
+}

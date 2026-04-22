@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    color: white;
+}
+#first{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    
+}
+#second{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    
+}
+#third{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    
+}

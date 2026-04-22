@@ -1,0 +1,81 @@
+arr.forEach(n => console.log(n * n));
+Difference between map and forEach
+Display all products with:
+    name, price, category, total price = price × qty
+    Increase each price by 10% using map
+
+Filter and display:
+    Only food items
+    Only electronics
+    Show only prices above 300 using filter
+    Products with rating > 4
+
+Calculate:
+    Total cart value
+    Total quantity
+    Highest priced item
+    Lowest priced item
+    Average product price
+    Count electronics items
+    Count quantity of all items in cart
+
+Apply Logic
+    Add 5% delivery charge
+    Add 18% GST
+    Free delivery above ₹1000
+    Final bill calculation
+
+Build features:
+    Remove items below rating 4
+    Increase price of electronics by 10%
+    Apply coupon:
+        SAVE10 → 10% discount
+        SAVE20 → 20% discount above ₹2000
+    sort products by price
+
+---- Product List ----
+Pizza ₹250 x 2 = ₹500
+
+---- Filtered Electronics ----
+Headphones ₹1500
+
+---- Cart Summary ----
+Total Items: 8
+Total Price: ₹4150
+GST: ₹747
+Delivery: Free
+Final Amount: ₹4897
+
+Tricky questions for placements
+    Find total even numbers count from a given array
+    Sum of only odd numbers
+    Find largest number using reduce
+    Count how many times each element occurs (VERY IMPORTANT)
+        let fruits = ["apple","banana","apple","orange","banana","apple"];
+        output = { apple:3, banana:2, orange:1 }
+    Total cart value
+        let cart = [
+                {name:"Laptop", price:50000, qty:1},
+                {name:"Mouse", price:500, qty:2},
+                {name:"Keyboard", price:1500, qty:1}
+            ];
+    Group by category
+        let products = [
+                    {name:"Pizza", category:"food"},
+                    {name:"Burger", category:"food"},
+                    {name:"Shirt", category:"fashion"},
+                    {name:"Jeans", category:"fashion"}
+                    ];
+        output = { food:["Pizza","Burger"], fashion:["Shirt","Jeans"]}
+    Count students passed (>50)
+            let students = [  {name:"A", marks:80},  {name:"B", marks:30},
+                            {name:"C", marks:70} ];
+            output = 2
+    Most expensive product
+            let products = [ {name:"A", price:200}, {name:"B", price:500},
+                            {name:"C", price:300} ];
+            Expected = {name:"B", price:500}
+
+
+
+
